@@ -57,7 +57,30 @@ Enter app directory:
 Run app: 
 <br>$ ng serve
 
-goto [http://localhost:4200] and see if app works.
+goto <a href="http://localhost:4200">http://localhost:4200</a> and see if app works.
+
+## Change your app
+Create new component as name <b>Card</b> 
+<br>
+To card.component.html insert div tag
+<br>
+copy this css code to card.component.css file 
+
+<br>
+<div>
+ <br>div{
+    <br>height: 200px;
+    <br>width: 400px;
+    <br>box-shadow: 2px 2px 2px #acacac;
+    <br>background: #eee;
+    <br>border-radius: 10px;
+ <br>}
+</div>
+
+<p>
+ now in app.component.html add 4 cards with <b>*ngFor</b> (don't forget to create temp array in ts file)
+ <br>To header page add <b>h1 tag</b> with your name and your i.d
+ </p>
 
 ## Deployment
 
